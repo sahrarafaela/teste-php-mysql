@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 221,221);
+}
+main{
+    width: 980px;
+    margin: 50px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr:nth-child(even){
+    background-color: rgb(221, 221,221);
+}
+table tr td{
+    padding: 8px 5px;
+    text-align: center;
+}
+.input-container{
+    margin: 25px 0;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+.input-container input[type="search"]{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(221, 221,221);
+    width: 40%;
+}
+.bold{
+    font-weight: bold;
+    color: red;
+}
+.results-container{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
